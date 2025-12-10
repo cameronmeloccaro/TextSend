@@ -1,4 +1,4 @@
-TextSend - https://cameronmeloccaro.github.io/TextSend/
+TextSend - textsend.live
 
 TextSend was designed to make it easier to send small scrips or code snippets to students on their chromebooks.
 
