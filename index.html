@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Script Share</h1>
+    <p>Paste a script and get a share code. Type in your share code to copy the script</p>
+<div class="container">
+    <div class="pasteContainer">
+        <h3>Upload Script</h3>
+            <textarea id="uploadText"></textarea>
+            <br />
+            <div>
+                <button id="sendBtn" class="button">Get Share code</button>
+                <p id="shareCodeText">Code:</p>
+            </div>
+    </div>
+    <div class="viewContainer">
+        <h3>View Script</h3>
+            <label>Enter share code:</label>
+            <input id="codeField" type="text">
+
+                <button id='recieveBtn'class="button">Load code</button>
+                <p id="outputView"></p>
+               <pre id="viewCode"></pre>
+               <button id="copyBtn">Copy</button>
+    </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/11.0.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/11.0.0/firebase-firestore-compat.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
