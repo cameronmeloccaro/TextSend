@@ -1,4 +1,4 @@
-TextSend - textsend.live
+TextSend - [textsend.live](https://textsend.live/)
 
 TextSend was designed to make it easier to send small scrips or code snippets to students on their chromebooks.
 
